@@ -11,6 +11,10 @@ default_dirs:
 
 library:
   skills:
+    - name: bigcommerce-app-oauth
+      description: BigCommerce app installation, OAuth lifecycle, and JWT verification for BC app callbacks
+      source: /Users/nate/projects/bigcommerce-app/.claude/skills/bigcommerce-app-oauth/SKILL.md
+
     - name: bigcommerce-graphql-api
       description: How to make BigCommerce API calls using GraphQL — Admin and Storefront APIs; preferred over REST
       source: /Users/nate/.claude/skills/bigcommerce-graphql-api/SKILL.md
