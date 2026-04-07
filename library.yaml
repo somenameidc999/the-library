@@ -10,6 +10,13 @@ default_dirs:
     - global: ~/.claude/commands/
 
 library:
-  skills: []
+  skills:
+    - name: bigcommerce-graphql-api
+      description: How to make BigCommerce API calls using GraphQL — Admin and Storefront APIs; preferred over REST
+      source: /Users/nate/.claude/skills/bigcommerce-graphql-api/SKILL.md
+
+    - name: bigcommerce-rest-api
+      description: How to correctly make BigCommerce Admin API calls across v2 and v3 REST endpoints
+      source: /Users/nate/.claude/skills/bigcommerce-rest-api/SKILL.md
   agents: []
   prompts: []
