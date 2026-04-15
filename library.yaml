@@ -10,6 +10,9 @@ default_dirs:
     - global: ~/.claude/commands/
 
 library:
-  skills: []
+  skills:
+    - name: shopify-admin
+      description: The Admin GraphQL API lets you build apps and integrations that extend and enhance the Shopify admin.
+      source: https://github.com/Shopify/agent-skills/blob/main/shopify-admin/SKILL.md
   agents: []
   prompts: []
